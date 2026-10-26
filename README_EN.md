@@ -2,9 +2,9 @@
 
 [日本語](README.md) · [Download](https://github.com/ufotone/LPC-ROBOT-7/releases/latest) · [Word list](WORDS.md)
 
-An LPC speech synthesizer for KORG drumlogue. It resynthesizes 58 AI-generated words and phrases as robotic speech using coarse LPC parameters. Languages: English, Japanese, Chinese, German, French, Italian and Russian.
+An LPC speech synthesizer for KORG drumlogue. It resynthesizes 58 words and phrases as robotic speech using coarse LPC parameters. Languages: English, Japanese, Chinese, German, French, Italian and Russian.
 
-Current version: **0.17.0**. The unit appears on the device as **LPC ROBOT 7**.
+Introducing **LPC ROBOT 7 v0.17.0**. The unit appears on the device as **LPC ROBOT 7**.
 
 ## Installation
 
@@ -52,19 +52,13 @@ The first echo goes left and the next goes right at equal level. Subsequent pair
 
 DLY DIV offers `1/32, 1/16T, 1/16, 1/8T, 1/16D, 1/8, 1/8D, 1/4, 1/4D, 1/2`. Intervals are capped at four seconds; exceeding that limit displays `MAX 4s`. Tempo defaults to BPM 120 until the device supplies an update.
 
-There is no separate output PAN parameter. Use drumlogue's MIX ROUTE controls for output placement. PAN DELAY controls the delay amount. There is no chorus.
-
-## Upgrade compatibility
-
-WORD indices are unchanged between v0.15 and v0.17. The output PAN added in v0.16 was removed in v0.17. The remaining 11 parameter indices and stored values are unchanged.
-
-Compared with v0.14 and earlier, word deletions changed WORD indices. Compared with v0.13 and earlier, the stored PITCH representation also changed. Check and, if needed, re-record WORD/PITCH settings and MOTION in older patterns.
+Use drumlogue's MIX ROUTE controls for output placement. PAN DELAY controls the delay amount.
 
 ## Distribution and licensing
 
-Public files contain source, LPC coefficients, the unit binary and documentation. **No source WAVs, recordings, preview audio, TTS models or personal environment-management scripts are included.** The LPC parameters needed to resynthesize speech and the phrase text are intentionally public. The current 58-word bank excludes the earlier user-recorded RU VOC1 / RU VOC2 entries.
+Public files contain source, LPC coefficients, the unit binary and documentation. **No source WAVs, recordings, preview audio, TTS models or personal environment-management scripts are included.** The LPC parameters needed to resynthesize speech and the phrase text are intentionally public.
 
-Speech was AI-generated with [OpenBMB VoxCPM2](https://huggingface.co/openbmb/VoxCPM2), edited and analyzed into LPC parameters. No TI speech ROMs or game audio recordings are included. This is not a strict TMS5100/5220 emulator.
+No TI speech ROMs or game audio recordings are included. This is not a strict TMS5100/5220 emulator.
 
 Original portions use the [MIT License](LICENSE); KORG SDK-derived portions retain [BSD-3-Clause](LICENSE-KORG). See [third-party notices and speech provenance](THIRD_PARTY_NOTICES.md). This is an independent project, not an official KORG product.
 
