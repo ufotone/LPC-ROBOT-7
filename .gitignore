@@ -1,0 +1,27 @@
+# Private source audio, rendered audio and model weights must never be committed.
+*.wav
+*.wave
+*.mp3
+*.flac
+*.ogg
+*.aif
+*.aiff
+*.m4a
+*.f32
+*.pcm
+*.raw
+*.safetensors
+*.pth
+*.pt
+*.onnx
+*.zip
+*.drmlgunit
+*.o
+*.so
+build/
+.dep/
+.test-output/
+dist/
+.env
+.env.*
+__pycache__/

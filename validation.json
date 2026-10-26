@@ -1,0 +1,39 @@
+{
+  "version": "0.17.0",
+  "word_count": 58,
+  "internal_gain_db": 18,
+  "native_api_tests": "PASS",
+  "arm_qemu_api_tests": "PASS",
+  "rnd_stutter_time_ms": {
+    "min": 20,
+    "max": 250,
+    "default": 80
+  },
+  "rnd_stutter_cases": 522,
+  "minimum_gate_finishes_grain": "PASS",
+  "rnd_loop_bounds_and_gate_release": "PASS",
+  "index_freeze_positions_tested": 5858,
+  "pitch_display_keys_tested": 76,
+  "hardware_tested": false,
+  "unit_sha256": "19fb7152cec1fa4516d2e2d90d0c44ba709a3c807642a640928efbb74ed8485a",
+  "num_params": 11,
+  "output_pan_removed": true,
+  "stutter_rest_note": "1/16",
+  "stutter_rest_tempo_cases_bpm": [
+    60,
+    120,
+    240
+  ],
+  "stutter_rest_at_bpm120_ms": 125,
+  "review_date": "2026-10-26",
+  "public_source_rebuild_matches_original": true,
+  "native_address_sanitizer": "PASS",
+  "native_undefined_behavior_sanitizer": "PASS",
+  "adversarial_control_event_cases": 3000,
+  "guarded_render_buffers": "PASS",
+  "raw_audio_published": false,
+  "models_published": false,
+  "private_environment_scripts_published": false,
+  "source_archive_allowlist_scan": "PASS",
+  "release_archive_allowlist_scan": "PASS"
+}
