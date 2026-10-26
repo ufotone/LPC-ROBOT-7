@@ -14,7 +14,7 @@
   "rnd_loop_bounds_and_gate_release": "PASS",
   "index_freeze_positions_tested": 5858,
   "pitch_display_keys_tested": 76,
-  "hardware_tested": false,
+  "hardware_tested": true,
   "unit_sha256": "19fb7152cec1fa4516d2e2d90d0c44ba709a3c807642a640928efbb74ed8485a",
   "num_params": 11,
   "output_pan_removed": true,

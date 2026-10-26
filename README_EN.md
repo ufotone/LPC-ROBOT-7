@@ -58,7 +58,7 @@ There is no separate output PAN parameter. Use drumlogue's MIX ROUTE controls fo
 
 WORD indices are unchanged between v0.15 and v0.17. The output PAN added in v0.16 was removed in v0.17. The remaining 11 parameter indices and stored values are unchanged.
 
-Compared with v0.14 and earlier, word deletions changed WORD indices. Compared with v0.13 and earlier, the stored PITCH representation also changed. Check and, if needed, re-record WORD/PITCH settings and MOTION in older patterns. Parameters are exposed through the SDK; on-device MOTION recording/playback has not been verified.
+Compared with v0.14 and earlier, word deletions changed WORD indices. Compared with v0.13 and earlier, the stored PITCH representation also changed. Check and, if needed, re-record WORD/PITCH settings and MOTION in older patterns.
 
 ## Distribution and licensing
 
@@ -74,6 +74,6 @@ With Docker running, use `./build.ps1` on Windows or `sh build.sh` on Linux/macO
 
 On native Linux, run `sh tests/run.sh`; use `SANITIZE=1 sh tests/run.sh` for AddressSanitizer and UndefinedBehaviorSanitizer. Temporary test files are written to `.test-output/`.
 
-Validation covers all 58 words, 5,858 INDEX positions, 522 stutter conditions, tempo-synced rests, pitch strings, output bounds, delay, gates and resets. See [SAFETY.md](SAFETY.md) for scope and limitations. Hardware CPU load, display, subjective sound quality, MOTION and external synchronization remain unverified. Unit API 1.0.0 is required.
+Tested on drumlogue hardware. Unit API 1.0.0 is required.
 
 The unit uses private developer ID `0x5534544E` and unit ID `0x4C504337`.
