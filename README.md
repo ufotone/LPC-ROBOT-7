@@ -2,8 +2,8 @@
 
 [English](README_EN.md) · [ダウンロード](https://github.com/ufotone/LPC-ROBOT-7/releases/latest) · [WORD一覧](WORDS.md)
 
-KORG drumlogue用のLPC音声シンセです。58種類の単語・フレーズを、粗いロボット声として再合成します。**
-英語、日本語、中国語、ドイツ語、フランス語、イタリア語、ロシア語を収録しています。
+KORG drumlogue用のLPC音声シンセです。58種類の単語・フレーズを、粗いロボット声として再合成します。
+**英語、日本語、中国語、ドイツ語、フランス語、イタリア語、ロシア語を収録しています。
 
 **LPC ROBOT 7 v0.17.0** が現在のバージョンです。本体の表示名は **LPC ROBOT 7** です。
 
